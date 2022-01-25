@@ -8,7 +8,11 @@ import {
     UsersIcon, 
     GlobeIcon} from '@heroicons/react/solid'
 
+
+    
+
 function Header() {
+    
     
   return <header className="sticky top-0 z-40 grid grid-cols-3 gap-4  shadow-md p-5 md:px-10 bg-white">
     
@@ -29,7 +33,7 @@ function Header() {
     <div className='flex items-center justify-center  text-gray-700'>
         <p className=' hidden md:inline cursor-pointer hover:bg-gray-100 px-4 py-2 rounded-full' >Become a host</p>
         <div className='cursor-pointer hover:bg-gray-100 px-3 py-3 rounded-full  mr-1'>
-        <GlobeIcon className='h-6  cursor-pointer' />
+        <GlobeIcon className='h-6  cursor-pointer hidden md:inline' />
         </div>
 
     <div className='flex items-center space-x-2 border-2 p-2 rounded-full cursor-pointer hover:shadow-md transistion duration-150'>
