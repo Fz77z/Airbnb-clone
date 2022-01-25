@@ -9,28 +9,15 @@ import {
     GlobeIcon} from '@heroicons/react/solid'
 
 function Header() {
-  return <header className="sticky top-0 z-40 grid grid-cols-3 gap-4 bg-white shadow-md p-5 md:px-10 ">
+    
+  return <header className="sticky top-0 z-40 grid grid-cols-3 gap-4  shadow-md p-5 md:px-10 bg-white">
     
     {/* left */}
-  
-  
     <div className="relative flex h-10 my-auto">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" 
-         className='w-auto h-10 cursor-pointer mx-auto'
-
-        />
+         className='w-auto h-10 cursor-pointer mx-auto'/>
     </div>
   
-    {/* <div className="relative flex items-center h-10 my-auto bg-red-500">
-        <Image
-        // src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png"
-        src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
-        
-        layout="fill"
-        objectFit="contain" objectPosition="center"
-        className='cursor-pointe'
-        />
-    </div> */}
 
     {/* Middle */}
     <div className='flex items-center md:border-2 rounded-full py-2 md:shadow-sm hover:shadow-md focus:shadow-md transistion duration-150'>
@@ -52,7 +39,17 @@ function Header() {
 
     </div>
 
+
+    
+
   </header>;
 }
+
+
+
+
+
+
+
 
 export default Header;

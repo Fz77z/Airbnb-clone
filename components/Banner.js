@@ -28,7 +28,7 @@ function Banner() {
       Olympian &  <br></br>Paralympian<br></br> Online<br></br> Experiences
       </p>
 
-      <div className='absolute 2xl:top-80 2xl:py-60 2xl:left-60 xl:top-52 xl:py-60 xl:left-36 lg:top-28 lg:py-60 lg:left-24 md:top-14 md:py-52 md:left-14 sm:top-20 sm:py-36 sm:left-14 top-12 py-36 left-10 w-full'>
+      <div className='absolute 2xl:top-80 2xl:py-60 2xl:left-60 xl:top-52 xl:py-60 xl:left-36 lg:top-28 lg:py-60 lg:left-24 md:top-14 md:py-52 md:left-14 sm:top-20 sm:py-36 sm:left-14 top-12 py-36 left-10'>
       <button className='sm:mt-4 text-purple-500 bg-white px-10 py-4 rounded-full shadow-md font-bold my-3 hover:shadow-lg active:scale-90 transistion duration-150 '>Explore Now</button>
       </div>
   </div>;
